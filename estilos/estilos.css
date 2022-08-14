@@ -1,0 +1,94 @@
+body{
+    background-image: url("../multimedia/DiveImage.jpg");
+    background-size: cover; 
+}
+.cuadro{
+    padding-top: 30px;
+}
+.cuadro1{
+    --animate-duration: 15s;
+}
+.carrusel{
+    width: 100%;
+    height: 65%;
+    margin: auto;
+    margin-top: 25px;
+}
+.titulo1{
+
+    margin-bottom: 0;
+}
+footer{
+    margin-top: 35px
+}
+
+.tabla{
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+.tabla1{
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+@media screen and ( max-width: 521px){
+    .tabla{
+        display: none;
+    }
+}
+@media screen and ( min-width: 520px){
+    .tabla1{
+        
+    }
+}
+@media screen and ( min-width: 521px){
+    .tabla1{
+        display: none;
+    }
+}
+.carta1{
+    transition:0.5s ;
+    object-fit: cover;
+}
+.carta1:hover{
+    transform: scale(1.2)
+}
+.tituloCurso{
+    margin-bottom: auto;
+}
+.imagenesCurso{
+    padding: 5px;
+}
+
+/*------------------- grafico-----------------------*/
+/* .canvas {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.circle {
+    display: inline-block;
+    margin: 1em;
+}
+
+.circles-decimals {
+    font-size: .4em;
+}
+
+.buttons {
+    margin-top: 1em;
+} */
+.canvas {
+    margin-top: 1em;
+    text-align: center;
+}
+#canvas .circle {
+    display: inline-block;
+    margin: 1em;
+}
+
+.circles-decimals {
+    font-size: .4em;
+}
+.circles-text{
+    color: black;
+}
